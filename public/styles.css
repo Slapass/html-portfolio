@@ -1,0 +1,31 @@
+h1 {
+  color: #2ee898;
+  text-align: center;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 500%;
+  margin: 0px;
+}
+.blue-text {
+  color: blue;
+  text-align: center;
+}
+.container {
+  display: inline-flex;
+  gap: 10px;
+  flex-basis: 50px;
+}
+.container > * {
+  flex: 1 1 25%;
+}
+h2 {
+  text-align: center;
+}
+#fooot {
+  display: inline-flex;
+  gap: 10px;
+}
+#fooot > * {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+}
